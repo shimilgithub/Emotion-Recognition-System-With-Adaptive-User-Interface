@@ -7,6 +7,7 @@ import cv2
 import tensorflow as tf
 import os
 
+
 # Load the trained model
 model = tf.keras.models.load_model('best_model.keras')
 
